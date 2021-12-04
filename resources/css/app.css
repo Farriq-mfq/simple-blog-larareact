@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.container {
+    @apply p-3;
+}
+.container-content {
+    @apply p-3 min-h-screen;
+}

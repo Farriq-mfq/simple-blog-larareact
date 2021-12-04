@@ -1,0 +1,15 @@
+.title_fpl {
+    position: relative;
+}
+.title_fpl::before {
+    content: "";
+    background: #000000;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    bottom: 0;
+    left: -10px;
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+}

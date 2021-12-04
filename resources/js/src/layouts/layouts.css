@@ -1,0 +1,54 @@
+/* responsive */
+/* 
+    NAVBAR
+*/
+@media only screen and (max-width: 768px) {
+    .responsive__navbar {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        width: 70%;
+        background: #1f2937 !important;
+        z-index: 9999 !important;
+        height: 100vh;
+        justify-content: flex-start !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        color: #fff !important;
+        overflow-y: auto;
+        display: block !important;
+        transition: left 0.5s ease;
+        border: none !important;
+    }
+    .responsive__navbar li {
+        margin: 1rem 0;
+        text-align: center;
+    }
+    .responsive__navbar li a {
+        padding: 0.5rem 0;
+        display: block;
+        width: 100%;
+    }
+    .responsive__navbar.show {
+        left: 0 !important;
+        transition: left 0.5s ease;
+    }
+    .overley {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        display: none !important;
+        z-index: 9998 !important;
+        cursor: pointer;
+    }
+    .overley.show_overley {
+        display: block !important;
+    }
+    .bars {
+        display: block !important;
+    }
+}

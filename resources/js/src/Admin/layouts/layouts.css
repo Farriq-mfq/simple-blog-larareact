@@ -1,0 +1,10 @@
+.content__admin {
+    max-width: 50%;
+    min-height: 100vh;
+    margin: auto;
+}
+@media only screen and (max-width: 768px) {
+    .content__admin {
+        max-width: 100%;
+    }
+}
